@@ -1,7 +1,13 @@
 header {
   text-align: center;
   font-size: 30px;
-  color: #279EFF;
+  
+  color: #ffffff;
+}
+
+body{
+  text-shadow: 0 10px 10px rgb(52, 151, 219);
+  
 }
 
 main, html {
@@ -12,11 +18,14 @@ main, html {
   justify-content: center;
   align-items: center;
   background-color: #0C356A;
+  background-image: url(code.jpg);
+  background-size: cover;
 }
 
 .container {
   text-align: center;
   color: #279EFF;
+  
 }
 
 .button {
@@ -24,6 +33,7 @@ main, html {
   margin: 10px;
   font-size: 24px;
   border: none;
+  color: azure;
   background-color: #3498db;
   cursor: pointer;
   border-radius: 5px;
